@@ -1,0 +1,353 @@
+ /* src/ProfilePage.css */
+.profile-page {
+  display: flex;
+}
+
+.menu {
+  width: 290px;
+  /* background-color: #f8f8f8; */
+  /* padding: 20px; */
+  border-right:1px solid #ddd ;
+ position: relative;
+}
+
+ 
+.circle{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color:rgba(251, 205, 20, 0.99);;
+  margin-right: 10px;
+}
+.howbeeLogo{
+  border-bottom: 1px solid #ddd;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+.beeyellow{
+  color: rgba(251, 205, 20, 0.99);
+}
+
+.menuLogo{
+  letter-spacing: 2px;
+  font-size: 22px;
+ 
+  padding: 30px;
+  color: grey;
+}
+
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  padding-left: 30px;
+  margin-top: 0px;
+}
+
+.menu li {
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 5px;
+  color: grey;
+}
+
+.logoSize{
+   width: 22px;
+   height: 25px;
+    color: rgb(85, 85, 85);
+}
+ 
+.bottomMenu{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+/* head */
+
+.profile {
+  flex: 1;
+  padding: 20px;
+}
+
+.ph{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  font-size: large;
+}
+.bell{
+  font-size: 32px;
+  width: 36px;
+  height: 30px;
+  margin-top: 10px;
+}
+ .pencil{
+  margin-right: 10px;
+ }
+
+.pro{
+  display: flex;
+  padding-top: 18px;
+  padding-left: 20px;
+}
+
+.photodetail{
+  width: 50%;
+  margin: 0px 10px 10px 30px;
+}
+
+.photo{
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background-color: blue;
+  margin: auto;
+  background-image: url("https://img.freepik.com/premium-photo/cartoon-character-young-boy_1057389-25130.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.about{
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  margin-top: 18px;
+  margin-bottom: 5px;
+}
+.tarea{
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 290px;
+  margin: 0;
+  background-color: #f1f0f0;
+  border-radius: 2px;
+  border: none;
+  padding: 10px;
+  
+}
+.tarea:hover{
+  outline: 1px solid yellow;
+}
+
+.pricing table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #f1f0f0;
+  padding: 10px;
+}
+ 
+.pricing td{
+  padding: 2px 10px;
+}
+
+
+/* details */
+.profile-details {
+  width:  auto;
+  padding: 10px;
+  margin-bottom: 20px;
+   
+  margin-left: 20px;
+}
+
+label{
+  font-weight: bold;
+}
+.profile-field {
+  margin-bottom: 10px;
+}
+
+.profile-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.profile-field input {
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+input{
+  background-color: #f1f0f0;
+  border: none;
+  padding: 20px;
+}
+
+.boxg{
+  display: flex;
+  gap: 50px;
+}
+.fifth-field{
+  width: 250px;
+}
+.classc{
+  background-color: #f1f0f0;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border: none;
+  resize: none;
+}
+.time{
+  background-color: #f1f0f0;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border: none;
+  resize: none;
+  height: 124px;
+}
+select{
+  background-color: #f1f0f0;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border: none;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom:20px;
+}
+
+.save, .cancel {
+  padding: 10px 30px;
+  width: 120px;
+  margin-left: 10px;
+  font-weight: bold;
+  border: none;
+}
+
+.save{
+  background-color: rgba(251, 205, 20, 0.99);
+}
+.cancel{
+   border:2px solid rgba(251, 205, 20, 0.99);
+   color:rgba(251, 205, 20, 0.99) ;
+   background-color: white;
+}
+.profile-page{
+  position: relative;
+}
+
+/* //sidebar */
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+ 
+ .howbeenone{
+ border: none;
+ }
+
+.sidebar li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding-bottom: 10px;
+  
+}
+.sidebar a{
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+.bMenu{
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.humberg{
+  width: 50px;
+  height: 62px;
+  display: none;
+}
+.close{
+  width: 32px;
+  height: 32px;
+  margin: 30px;
+  position: absolute;
+  right: 0;
+}
+.pencil {
+ 
+  margin-top: -19px;
+}
+
+.lin{
+   text-decoration: none;
+}
+
+/* media query */
+@media (max-width:1280px) {
+  
+  .menu{
+    display: none;
+  }
+ .photodetail{  
+   width: auto ;
+  margin:0;
+}
+.profile-details {
+   width :auto;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+ .pro {
+  display: block;
+  padding-top: 0;
+  padding-left: 0;  
+  }   
+  .profile-header {
+    padding-left: 0px;
+}
+
+/* sidebar */
+.sidebar{
+  display: block;
+  height: 100vh;
+  width: 100%;
+}
+.humberg{
+  display: block;
+}
+.profile{
+  padding-top: 0;
+}
+}
